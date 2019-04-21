@@ -1,13 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>fMail</title>
-</head>
-<body>
-    <div id="root"></div>
-    <script src="./boundle.js"></script>
-</body>
-</html>
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve '/Users/hassnian/Desktop/pro  yectos/fmail/src/views/index.html' in '/Users/hassnian/Desktop/proyectos/  fmail':
+  Error: Can't resolve '/Users/hassnian/Desktop/proyectos/fmail/src/views/i  ndex.html' in '/Users/hassnian/Desktop/proyectos/fmail'
+  
+  - compiler.js:79 childCompiler.runAsChild
+    [fmail]/[html-webpack-plugin]/lib/compiler.js:79:16
+  
+  - Compiler.js:306 compile
+    [fmail]/[webpack]/lib/Compiler.js:306:11
+  
+  - Compiler.js:631 hooks.afterCompile.callAsync.err
+    [fmail]/[webpack]/lib/Compiler.js:631:15
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compiler.js:628 compilation.seal.err
+    [fmail]/[webpack]/lib/Compiler.js:628:31
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1329 hooks.optimizeAssets.callAsync.err
+    [fmail]/[webpack]/lib/Compilation.js:1329:35
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1320 hooks.optimizeChunkAssets.callAsync.err
+    [fmail]/[webpack]/lib/Compilation.js:1320:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1315 hooks.additionalAssets.callAsync.err
+    [fmail]/[webpack]/lib/Compilation.js:1315:36
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1311 hooks.optimizeTree.callAsync.err
+    [fmail]/[webpack]/lib/Compilation.js:1311:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1248 Compilation.seal
+    [fmail]/[webpack]/lib/Compilation.js:1248:27
+  
+  - Compiler.js:625 compilation.finish.err
+    [fmail]/[webpack]/lib/Compiler.js:625:18
+  
+  - Compilation.js:1171 hooks.finishModules.callAsync.err
+    [fmail]/[webpack]/lib/Compilation.js:1171:4
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [fmail]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1163 Compilation.finish
+    [fmail]/[webpack]/lib/Compilation.js:1163:28
+  
+  - Compiler.js:622 hooks.make.callAsync.err
+    [fmail]/[webpack]/lib/Compiler.js:622:17
+  
+  
+  - Compilation.js:1095 _addModuleChain
+    [fmail]/[webpack]/lib/Compilation.js:1095:12
+  
+  - Compilation.js:947 errorAndCallback.bail.err
+    [fmail]/[webpack]/lib/Compilation.js:947:6
+  
+</pre><script type="text/javascript" src="boundle.js"></script>

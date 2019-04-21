@@ -21,6 +21,8 @@ module.exports={
     },
     plugins: [
         new HtmlWebpackPlugin({
+            title:"index",
+            filename:path.join(__dirname,"dist","index.html"),
           template: path.join(__dirname,"src","views","index.html")
         })
       ]
